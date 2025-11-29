@@ -1,18 +1,37 @@
 {
+<<<<<<< HEAD
   "name": "dash_board",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+=======
+  "name": "protected-dashboard",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage":"https://github Megha-priyanshu.io/2400030479_ENDSEM_SKILL",
+
+>>>>>>> 93bc3fc0c12cf93a19751dc0c950a7d55cda7966
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
+<<<<<<< HEAD
     "preview": "vite preview"
   },
   "dependencies": {
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.9.6"
+=======
+    "preview": "vite preview",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+>>>>>>> 93bc3fc0c12cf93a19751dc0c950a7d55cda7966
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
